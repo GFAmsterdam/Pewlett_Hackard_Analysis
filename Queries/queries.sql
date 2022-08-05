@@ -177,7 +177,28 @@ ON (ce.emp_no = de.emp_no)
 INNER JOIN departments AS d
 ON (de.dept_no = d.dept_no);
 
+--Module 7 Skill Challenge
+SELECT ri.emp_no,
+ri.first_name,
+ri.last_name,
+de.dept_no
+INTO sales_dept_retiring
+FROM retirement_info as ri
+LEFT JOIN dept_emp AS de
+ON (ri.emp_no = de.emp_no)
+WHERE (de.dept_no = 'd007');
 
+
+SELECT ri.emp_no,
+ri.first_name,
+ri.last_name,
+de.dept_no
+INTO sales_dev_dept_retiring
+FROM retirement_info as ri
+LEFT JOIN dept_emp AS de
+ON (ri.emp_no = de.emp_no)
+WHERE de.dept_no = ('d005')
+OR de.dept_no = ('d007');
 
 
 
