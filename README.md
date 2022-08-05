@@ -15,7 +15,7 @@ list of eligible employees to approach with an offer of a future mentorship prog
 
 
 
-## Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
+## Summary: 
 
 ### How many roles will need to be filled as the "silver tsunami" begins to make an impact? 72,458 are up for retirement and will need to be filled
 within the next few years. The largest exodus by far will be in the Senior Engineer and Senior Staff positions. These are highly trained positions
